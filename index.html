@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Álvaro García-Aparicio Rey</title>
+<meta name="description" content="Electromecánica de automóviles, montaje de turbinas eólicas, gestión de flotas y desarrollo de software e IA.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=JetBrains+Mono:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="inicio">
+
+<header class="top">
+  <a class="brand" href="#inicio" aria-label="Inicio">
+    <span class="mono-badge">ÁGA</span>
+    <span class="brand-name">García-Aparicio Rey</span>
+  </a>
+  <nav class="tabs" aria-label="Secciones">
+    <a href="#inicio" data-tab="inicio">Inicio</a>
+    <a href="#sobre-mi" data-tab="sobre-mi">Sobre mí</a>
+    <a href="#experiencia" data-tab="experiencia">Experiencia</a>
+    <a href="#motores" data-tab="motores"><i style="--c:#ff4d3d"></i>Motores</a>
+    <a href="#eolica" data-tab="eolica"><i style="--c:#ffd23f"></i>Eólica</a>
+    <a href="#informatica" data-tab="informatica"><i style="--c:#a48bff"></i>Informática</a>
+    <a href="#flotas" data-tab="flotas"><i style="--c:#19b3a6"></i>Flotas</a>
+    <a href="#contacto" data-tab="contacto">Contacto</a>
+    <span class="tab-ink" aria-hidden="true"></span>
+  </nav>
+  <button class="snd" id="sound" type="button" aria-pressed="true" aria-label="Música y sonido" title="La música empieza con tu primer clic">
+    <span class="bars" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span class="snd-lbl">Música</span>
+  </button>
+</header>
+<div class="wipe" aria-hidden="true"></div>
+
+<main id="main">
+
+<!-- ============ INICIO ============ -->
+<section class="view v-inicio" data-view="inicio" aria-labelledby="t-inicio">
+  <div class="wrap">
+    <p class="pill"><span class="dot"></span>Disponible para nuevas oportunidades</p>
+    <p class="hello">Hola, soy</p>
+    <h1 id="t-inicio" class="kinetic" aria-label="Álvaro García-Aparicio Rey">
+      <span class="k-line">Álvaro</span>
+      <span class="k-line">García-Aparicio Rey</span>
+    </h1>
+    <p class="lead">Cuento con sólida experiencia en la reparación de vehículos, el montaje de aerogeneradores, la gestión de flotas y el desarrollo de software e inteligencia artificial para automatizar el trabajo técnico. Especializado en <span class="typer" data-words="electromecánica de automóviles|montaje de turbinas eólicas|gestión de flotas|desarrollo web e IA|automatización de procesos">electromecánica de automóviles</span><span class="caret" aria-hidden="true"></span></p>
+  </div>
+  <div class="wrap">
+    <div class="tri">
+      <a class="tri-panel" href="#motores" style="--img:url(img/auto.webp);--c:#ff4d3d">
+        <span class="tri-glyph g-tach" aria-hidden="true"><b></b></span>
+        <span class="tri-kicker">Taller</span>
+        <span class="tri-title">Motores</span>
+        <span class="tri-sub">Electromecánica, diagnosis y automatización vehicular</span>
+        <span class="tri-go">Entrar →</span>
+      </a>
+      <a class="tri-panel" href="#eolica" style="--img:url(img/wind.webp);--c:#ffd23f">
+        <span class="tri-glyph g-rotor" aria-hidden="true"><b></b><b></b><b></b></span>
+        <span class="tri-kicker">Campo</span>
+        <span class="tri-title">Eólica</span>
+        <span class="tri-sub">Montaje de turbinas, cableado y trabajos en altura</span>
+        <span class="tri-go">Entrar →</span>
+      </a>
+      <a class="tri-panel" href="#informatica" style="--img:url(img/code.webp);--c:#a48bff">
+        <span class="tri-glyph g-cursor" aria-hidden="true">&gt;_</span>
+        <span class="tri-kicker">Código</span>
+        <span class="tri-title">Informática</span>
+        <span class="tri-sub">Desarrollo web, Python, JavaScript e integración de IA</span>
+        <span class="tri-go">Entrar →</span>
+      </a>
+      <a class="tri-panel tri-map" href="#flotas" style="--c:#19b3a6">
+        <span class="tri-glyph g-pin" aria-hidden="true"><b></b></span>
+        <span class="tri-kicker">Oficina</span>
+        <span class="tri-title">Flotas</span>
+        <span class="tri-sub">Presupuestos, trámites y coordinación con talleres</span>
+        <span class="tri-go">Entrar →</span>
+      </a>
+    </div>
+    <p class="hint">Pasa el cursor por el nombre y elige un oficio para entrar.</p>
+  </div>
+</section>
+
+<!-- ============ SOBRE MÍ ============ -->
+<section class="view v-sobre" data-view="sobre-mi" aria-labelledby="t-sobre" hidden>
+  <div class="wrap sobre-grid">
+    <div class="sobre-text">
+      <p class="eyebrow">Sobre mí</p>
+      <h2 id="t-sobre" class="quote">Más que un perfil técnico, <em>una visión completa.</em></h2>
+      <p class="body-lg">Profesional multidisciplinar con trayectoria en electromecánica de automóviles, montaje de aerogeneradores, gestión de flotas y desarrollo de software. Uno el trabajo de campo con la visión de gestión y las herramientas digitales, lo que me permite seguir cada problema desde la avería hasta su coste y su solución.</p>
+      <p class="body-lg sobre-2">Trabajo con método, doy prioridad a la seguridad y a la calidad y me comunico con claridad tanto con equipos técnicos como con clientes y proveedores.</p>
+      <ul class="traits">
+        <li><button type="button" aria-expanded="false"><span>Versatilidad técnica</span><span class="plus" aria-hidden="true"></span></button><p>Experiencia en cuatro entornos distintos: taller, parque eólico, oficina y desarrollo de software. Me adapto con rapidez y aporto desde el primer día.</p></li>
+        <li><button type="button" aria-expanded="false"><span>Resolución de problemas</span><span class="plus" aria-hidden="true"></span></button><p>Diagnóstico metódico: identifico la causa raíz antes de actuar, lo que reduce tiempos de reparación y costes.</p></li>
+        <li><button type="button" aria-expanded="false"><span>Comunicación y trabajo en equipo</span><span class="plus" aria-hidden="true"></span></button><p>He sido el portavoz del equipo técnico ante talleres y clientes, y he trabajado en equipos de montaje en altura, donde la coordinación es parte de la seguridad.</p></li>
+        <li><button type="button" aria-expanded="false"><span>Orientación a resultados</span><span class="plus" aria-hidden="true"></span></button><p>Mido mi trabajo por lo que entrega: máquinas en servicio, vehículos listos a tiempo y procesos automatizados que ahorran horas.</p></li>
+      </ul>
+    </div>
+    <figure class="compare" style="--pos:50%">
+      <img src="img/code.webp" alt="Puesto de desarrollo con monitores" class="cmp-b">
+      <div class="cmp-a"><img src="img/about.webp" alt="Técnico frente a un parque eólico al atardecer"></div>
+      <span class="cmp-tag l">Campo</span><span class="cmp-tag r">Código</span>
+      <input type="range" id="cmp" min="0" max="100" value="50" aria-label="Comparar campo y código">
+      <span class="cmp-handle" aria-hidden="true"></span>
+      <figcaption>De la ingeniería en el campo a la innovación digital. Arrastra para comparar.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCIA ============ -->
+<section class="view v-exp" data-view="experiencia" aria-labelledby="t-exp" hidden>
+  <canvas id="exp-bg" class="bg-cv" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <p class="eyebrow">Experiencia</p>
+    <h2 id="t-exp">Cuatro áreas, un mismo objetivo: <span class="hl">resolver, mejorar, innovar.</span></h2>
+  </div>
+  <div class="wrap exp-grid">
+    <svg class="venn" viewBox="0 0 400 400" role="group" aria-label="Diagrama de las cuatro áreas">
+      <g class="venn-c" data-role="motores" tabindex="0" role="button" aria-label="Motores"><circle cx="150" cy="150" r="104" fill="#ff4d3d"/><text x="78" y="96">Motores</text></g>
+      <g class="venn-c" data-role="eolica" tabindex="0" role="button" aria-label="Eólica"><circle cx="250" cy="150" r="104" fill="#2f7bff"/><text x="322" y="96" text-anchor="end">Eólica</text></g>
+      <g class="venn-c" data-role="informatica" tabindex="0" role="button" aria-label="Informática"><circle cx="150" cy="250" r="104" fill="#8a6bff"/><text x="70" y="318">Informática</text></g>
+      <g class="venn-c" data-role="flotas" tabindex="0" role="button" aria-label="Flotas"><circle cx="250" cy="250" r="104" fill="#19b3a6"/><text x="330" y="318" text-anchor="end">Flotas</text></g>
+      <text class="venn-core" x="200" y="196" text-anchor="middle">Criterio</text>
+      <text class="venn-core" x="200" y="214" text-anchor="middle">técnico</text>
+    </svg>
+    <article class="ficha" aria-live="polite">
+      <header class="ficha-head">
+        <span class="stamp">Ficha</span>
+        <span class="ficha-area" id="f-area">Taller</span>
+      </header>
+      <h3 id="f-title">Electromecánico de automóviles y automatización</h3>
+      <p id="f-detail"></p>
+      <ul id="f-points" class="checks"></ul>
+      <div class="ficha-cta">
+        <a id="f-tab" class="btn" href="#motores">Ver pestaña →</a>
+        <a id="f-ask" class="btn ghost" href="#contacto" data-subject="Electromecánica / Automoción">Preguntar por esto</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ MOTORES ============ -->
+<section class="view v-motor" data-view="motores" aria-labelledby="t-motor" hidden>
+  <div class="motor-stage">
+  <canvas id="road" class="bg-cv" aria-hidden="true"></canvas>
+  <div class="wrap motor-grid">
+    <div class="motor-text">
+      <p class="eyebrow">Automoción</p>
+      <h2 id="t-motor">Electromecánico de automóviles <span>&amp; automatización</span></h2>
+      <p>Diagnosis, reparación, mantenimiento y adaptaciones técnicas sobre el vehículo. Cuando un paso se repite, lo automatizo para que el taller o el negocio gane fiabilidad y tiempo.</p>
+      <a class="btn" href="#contacto" data-subject="Electromecánica / Automoción">Preguntar por automoción</a>
+    </div>
+    <div class="cluster">
+      <svg class="tach" viewBox="0 0 300 300" aria-hidden="true">
+        <g id="tach-ticks"></g>
+        <path id="tach-arc" d="" fill="none" stroke-width="10" stroke-linecap="round"/>
+        <g id="needle"><line x1="150" y1="150" x2="150" y2="42" stroke-width="4" stroke-linecap="round"/><circle cx="150" cy="150" r="12"/></g>
+        <text x="150" y="212" class="t-rpm" text-anchor="middle" id="rpm-num">800</text>
+        <text x="150" y="232" class="t-unit" text-anchor="middle">rpm</text>
+      </svg>
+      <div class="dash">
+        <div><span class="lbl">Marcha</span><b id="gear">N</b></div>
+        <div><span class="lbl">Velocidad</span><b><span id="kmh">0</span> <small>km/h</small></b></div>
+        <div><span class="lbl">Temp.</span><b><span id="temp">72</span> <small>°C</small></b></div>
+      </div>
+      <button class="throttle" id="throttle" type="button">Mantén pulsado para acelerar</button>
+      <p class="mini">También con la barra espaciadora. Activa el sonido para oír el motor.</p>
+    </div>
+  </div>
+  </div>
+  <div class="wrap">
+    <div class="obd">
+      <div class="obd-head">
+        <div><p class="eyebrow">Diagnosis OBD</p><h3>Lo que reviso, reparo y mejoro</h3></div>
+        <button class="btn" id="scan" type="button">Iniciar diagnosis</button>
+      </div>
+      <ol class="obd-list" id="obd-list">
+        <li data-d="Lectura de centralitas, fallos eléctricos y mecánicos hasta dar con la causa."><span class="pid">P0001</span><span class="name">Diagnosis</span><span class="bar"><i></i></span><span class="st">—</span></li>
+        <li data-d="Motor, transmisión, frenos, suspensión y sistemas eléctricos."><span class="pid">P0002</span><span class="name">Reparaciones</span><span class="bar"><i></i></span><span class="st">—</span></li>
+        <li data-d="Planes de mantenimiento que evitan averías y correcciones cuando aparecen."><span class="pid">P0003</span><span class="name">Mantenimiento preventivo y correctivo</span><span class="bar"><i></i></span><span class="st">—</span></li>
+        <li data-d="Modificaciones y ajustes del vehículo a lo que necesita cada cliente."><span class="pid">P0004</span><span class="name">Adaptaciones técnicas</span><span class="bar"><i></i></span><span class="st">—</span></li>
+        <li data-d="Automatización de vehículos y de los procesos del taller o del negocio."><span class="pid">P0005</span><span class="name">Automatización vehicular y de procesos</span><span class="bar"><i></i></span><span class="st">—</span></li>
+      </ol>
+      <p class="obd-out" id="obd-out">Pulsa «Iniciar diagnosis» para revisar cada sistema.</p>
+    </div>
+    <figure class="motor-photo"><img src="img/mech.webp" alt="Detalle de componentes mecánicos de un motor" loading="lazy"></figure>
+  </div>
+  <div class="wrap svc-wrap">
+    <div class="svc-head"><p class="eyebrow">Servicios</p><h3>Lo que tu vehículo o tu taller gana conmigo</h3></div>
+    <div class="svc-grid"><article class="svc"><h4>Diagnosis electrónica y mecánica</h4><p>Localizo la avería con equipos de diagnosis y comprobación eléctrica antes de cambiar una sola pieza: menos tiempo y menos coste.</p></article><article class="svc"><h4>Mantenimiento preventivo y correctivo</h4><p>Revisiones, aceite y filtros, frenos, distribución y suspensión para que el vehículo no se pare cuando más falta hace.</p></article><article class="svc"><h4>Reparación electromecánica</h4><p>Motor, transmisión, sistemas eléctricos y electrónicos: reparo el fallo y compruebo que no vuelva.</p></article><article class="svc"><h4>Adaptaciones y automatización</h4><p>Adaptaciones técnicas del vehículo y automatización de los procesos del taller: citas, presupuestos y seguimiento.</p></article></div>
+    <div class="sector"><h3>Experiencia en el sector</h3><ul><li>Taller de electromecánica: recepción del vehículo, diagnosis, reparación y entrega al cliente.</li><li>Mantenimiento de vehículos de flota de empresa.</li><li>Preparación de vehículos para la ITV.</li><li>Instalación de equipos eléctricos y accesorios en vehículos.</li></ul></div>
+  </div>
+</section>
+
+<!-- ============ EÓLICA ============ -->
+<section class="view v-eolica" data-view="eolica" aria-labelledby="t-eol" hidden>
+  <canvas id="wind" aria-hidden="true"></canvas>
+  <div class="wrap eol-grid">
+    <div class="eol-text">
+      <p class="eyebrow">Energía eólica · Plano E-01</p>
+      <h2 id="t-eol">Técnico de montaje de turbinas eólicas <span>(electricista)</span></h2>
+      <p>Montaje de turbinas en campo con el oficio de electricista: estructuras, cableado industrial, trabajo en altura con PRL y verificaciones eléctricas antes de dejar la máquina en servicio.</p>
+      <p class="wind-hint"><span class="fine">Mueve el ratón:</span><span class="coarse">Desliza el dedo:</span> tu cursor es el viento que mueve la turbina.</p>
+      <dl class="readouts">
+        <div><dt>Viento</dt><dd><b id="r-wind">4,0</b> m/s</dd></div>
+        <div><dt>Rotor</dt><dd><b id="r-rpm">0,0</b> rpm</dd></div>
+        <div><dt>Potencia</dt><dd><b id="r-power">0,00</b> MW</dd></div>
+      </dl>
+      <div class="pbar" aria-hidden="true"><i></i></div>
+      <p class="energy">Energía generada en tu visita: <b id="r-energy">0,0</b> kWh</p>
+      <p class="status" id="r-status" role="status">Brisa ligera. La turbina arranca a partir de 3 m/s.</p>
+      <svg class="curve" viewBox="0 0 320 130" aria-label="Curva de potencia de una turbina de 3 MW">
+        <g class="c-grid"><line x1="34" y1="104" x2="310" y2="104"/><line x1="34" y1="14" x2="34" y2="104"/><line x1="34" y1="14" x2="310" y2="14" stroke-dasharray="3 4"/></g>
+        <path id="c-path" fill="none"/>
+        <circle id="c-dot" r="5" cx="34" cy="104"/>
+        <g class="c-lbl"><text x="34" y="120" text-anchor="middle">0</text><text x="67" y="120" text-anchor="middle">3</text><text x="166" y="120" text-anchor="middle">12</text><text x="310" y="120" text-anchor="middle">25 m/s</text><text x="28" y="108" text-anchor="end">0</text><text x="28" y="18" text-anchor="end">3 MW</text></g>
+      </svg>
+    </div>
+    <div class="turbine">
+      <svg class="turbine-svg" viewBox="0 0 400 640" aria-label="Plano de un aerogenerador con anotaciones de montaje">
+        <g class="part" data-part="torre"><path d="M190 232 L182 600 L218 600 L210 232 Z"/><line x1="186" y1="330" x2="214" y2="330"/><line x1="184" y1="440" x2="216" y2="440"/><line x1="183" y1="530" x2="217" y2="530"/></g>
+        <g class="part" data-part="armario"><rect x="226" y="560" width="34" height="40" rx="2"/><line x1="232" y1="572" x2="254" y2="572"/><line x1="232" y1="582" x2="248" y2="582"/></g>
+        <line x1="120" y1="600" x2="300" y2="600" class="ground"/>
+        <g class="part" data-part="gondola"><rect x="176" y="204" width="86" height="34" rx="8"/><circle cx="200" cy="220" r="14"/></g>
+        <g id="rotor" class="part" data-part="pala">
+          <path d="M200 220 C206 170 208 110 200 40 C194 110 194 170 200 220 Z"/>
+          <path d="M200 220 C206 170 208 110 200 40 C194 110 194 170 200 220 Z" transform="rotate(120 200 220)"/>
+          <path d="M200 220 C206 170 208 110 200 40 C194 110 194 170 200 220 Z" transform="rotate(240 200 220)"/>
+          <circle cx="200" cy="220" r="9" class="hub"/>
+        </g>
+      </svg>
+      <ul class="callouts">
+        <li class="callout" data-part="pala" tabindex="0" style="--x:6%;--y:7%"><b>Pala</b>Trabajos en altura (PRL)</li>
+        <li class="callout" data-part="gondola" tabindex="0" style="--x:66%;--y:29%"><b>Góndola y buje</b>Cableado industrial</li>
+        <li class="callout" data-part="torre" tabindex="0" style="--x:2%;--y:62%"><b>Torre por tramos</b>Montaje de estructuras</li>
+        <li class="callout" data-part="armario" tabindex="0" style="--x:66%;--y:80%"><b>Armario de control</b>Verificaciones eléctricas</li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap eol-foot">
+    <a class="btn" href="#contacto" data-subject="Montaje eólico / Electricidad">Preguntar por energía eólica</a>
+    <p class="mini">Modelo simplificado: arranque a 3 m/s, potencia nominal a 12 m/s y parada de seguridad por encima de 25 m/s.</p>
+  </div>
+  <div class="wrap svc-wrap">
+    <div class="svc-head"><p class="eyebrow">Servicios</p><h3>Montaje seguro, a la primera</h3></div>
+    <div class="svc-grid"><article class="svc"><h4>Montaje mecánico de aerogeneradores</h4><p>Ensamblaje de tramos de torre, góndola, buje y palas, con control de pares de apriete y coordinación con grúa.</p></article><article class="svc"><h4>Cableado y conexionado</h4><p>Tendido de cable de potencia y de control, conexionado de armarios y montaje de bandejas en torre y góndola.</p></article><article class="svc"><h4>Verificaciones eléctricas</h4><p>Pruebas de continuidad y aislamiento y comprobaciones previas para dejar la máquina lista para la puesta en marcha.</p></article><article class="svc"><h4>Trabajos en altura con PRL</h4><p>Trabajo en altura con equipos de protección y procedimientos de prevención: la seguridad del equipo va primero.</p></article></div>
+    <div class="sector"><h3>Experiencia en el sector</h3><ul><li>Montaje de aerogeneradores en parques eólicos dentro de equipos de montaje.</li><li>Izado y ensamblaje de tramos de torre, góndola y palas.</li><li>Tendido y conexionado de cableado de potencia y control.</li><li>Formación en prevención de riesgos laborales y trabajos en altura.</li></ul></div>
+  </div>
+</section>
+
+<!-- ============ INFORMÁTICA ============ -->
+<section class="view v-info" data-view="informatica" aria-labelledby="t-info" hidden>
+  <canvas id="matrix" class="bg-cv" aria-hidden="true"></canvas>
+  <div class="wrap info-grid">
+    <div class="info-text">
+      <p class="eyebrow"><span class="cm">//</span> informática</p>
+      <h2 id="t-info">Desarrollo, automatización <span>&amp; inteligencia artificial</span></h2>
+      <p>Desarrollo web, Python y JavaScript, automatización de recursos e integración de inteligencia artificial aplicada a un problema concreto: menos tarea manual y más criterio técnico.</p>
+<pre class="code" aria-label="Perfil en código"><code><span class="kw">const</span> <span class="vr">perfil</span> = {
+  <span class="pr">web</span>: [<span class="st">"frontend"</span>, <span class="st">"backend"</span>],
+  <span class="pr">lenguajes</span>: [<span class="st">"Python"</span>, <span class="st">"JavaScript"</span>],
+  <span class="pr">automatiza</span>: <span class="st">"recursos y procesos"</span>,
+  <span class="pr">ia</span>: <span class="st">"integrada en problemas reales"</span>,
+  <span class="pr">soporte</span>: <span class="kw">true</span>,
+};</code></pre>
+      <a class="btn" href="#contacto" data-subject="Software / Automatización / IA">Preguntar por software e IA</a>
+    </div>
+    <div class="term" id="term">
+      <div class="term-bar"><i></i><i></i><i></i><span>alvaro@portfolio: ~</span></div>
+      <div class="term-out" id="term-out" aria-live="polite"></div>
+      <form class="term-in" id="term-form" autocomplete="off">
+        <label for="term-cmd" class="prompt">$</label>
+        <input id="term-cmd" spellcheck="false" placeholder="escribe un comando… (help)">
+      </form>
+      <div class="term-chips">
+        <button type="button" data-cmd="help">help</button>
+        <button type="button" data-cmd="stack">stack</button>
+        <button type="button" data-cmd="automatizar">automatizar</button>
+        <button type="button" data-cmd="ia">ia</button>
+        <button type="button" data-cmd="contacto">contacto</button>
+        <button type="button" data-cmd="clear">clear</button>
+      </div>
+    </div>
+  </div>
+  <div class="wrap svc-wrap">
+    <div class="svc-head"><p class="eyebrow"><span class="cm">//</span> servicios</p><h3>Software que trabaja por ti</h3></div>
+    <div class="svc-grid"><article class="svc"><h4>Desarrollo web</h4><p>Webs y aplicaciones a medida, frontend y backend, rápidas y fáciles de mantener.</p></article><article class="svc"><h4>Automatización</h4><p>Scripts en Python y JavaScript que eliminan tareas repetitivas: informes, hojas de cálculo, correos y datos.</p></article><article class="svc"><h4>Integración de IA</h4><p>Herramientas con inteligencia artificial conectadas a tus procesos para clasificar, resumir o asistir.</p></article><article class="svc"><h4>Soporte técnico</h4><p>Puesta a punto de equipos, software y redes, y ayuda directa a los usuarios.</p></article></div>
+    <div class="sector"><h3>Proyectos y experiencia</h3><ul><li>Software propio para una pantalla instalada en mi coche, desarrollado con herramientas de IA.</li><li>Este portfolio web, con animaciones interactivas en JavaScript.</li><li>Automatización de informes y tareas administrativas con Python y hojas de cálculo.</li><li>Soporte técnico a equipos y usuarios.</li></ul></div>
+  </div>
+</section>
+
+<!-- ============ FLOTAS ============ -->
+<section class="view v-flota" data-view="flotas" aria-labelledby="t-flota" hidden>
+  <canvas id="fleet" class="bg-cv" aria-hidden="true"></canvas>
+  <div class="wrap flota-head">
+    <p class="eyebrow">Administración · Gestión de flotas</p>
+    <h2 id="t-flota">Administrativo y gestor de flotas</h2>
+    <p class="body-lg">Hago de puente entre los técnicos, los talleres y los clientes: autorizo presupuestos de reparación, llevo los trámites administrativos y respondo los correos que llegan al equipo técnico.</p>
+    <ul class="roles">
+      <li>Autorización de presupuestos de reparación</li>
+      <li>Gestión de trámites administrativos</li>
+      <li>Ofimática</li>
+      <li>Portavoz del equipo técnico</li>
+    </ul>
+    <p class="mini map-hint">Pasa el cursor por el mapa para ver el estado de cada vehículo.</p>
+  </div>
+  <div class="wrap flota-grid">
+    <div class="panel">
+      <div class="panel-head"><h3>Presupuestos pendientes</h3><span class="tag">Ejemplo interactivo</span></div>
+      <ul class="quotes" id="quotes"></ul>
+      <div class="q-sum"><span>Autorizado <b id="q-ok">0 €</b></span><span>En revisión <b id="q-rev">0</b></span><span>Pendientes <b id="q-pend">4</b></span><button type="button" id="q-reset" class="link">Restablecer</button></div>
+    </div>
+    <div class="panel mail">
+      <div class="panel-head"><h3>Correo del equipo técnico</h3><span class="tag">Ejemplo interactivo</span></div>
+      <div class="mail-grid">
+        <ul class="inbox" id="inbox"></ul>
+        <div class="reader" id="reader" aria-live="polite"></div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap svc-wrap">
+    <div class="svc-head"><p class="eyebrow">Servicios</p><h3>Una flota bajo control</h3></div>
+    <div class="svc-grid"><article class="svc"><h4>Control de presupuestos</h4><p>Reviso cada presupuesto de taller, compruebo piezas y horas y autorizo solo lo necesario.</p></article><article class="svc"><h4>Trámites y documentación</h4><p>ITV, seguros, permisos, multas y expedientes de cada vehículo, al día.</p></article><article class="svc"><h4>Ofimática e informes</h4><p>Excel, Word y correo para seguir costes, incidencias y vencimientos de la flota.</p></article><article class="svc"><h4>Comunicación con talleres y clientes</h4><p>Soy la voz del equipo técnico: respuestas claras y a tiempo a talleres y clientes importantes.</p></article></div>
+    <div class="sector"><h3>Experiencia en el sector</h3><ul><li>Planificación de revisiones, ITV y mantenimientos según kilometraje.</li><li>Coordinación con talleres y proveedores para reducir el tiempo de vehículo parado.</li><li>Seguimiento de averías, incidencias y siniestros con aseguradoras.</li><li>Control de costes por vehículo y comparación de presupuestos.</li></ul></div>
+  </div>
+  <div class="wrap eol-foot"><a class="btn" href="#contacto" data-subject="Administración / Gestión de flotas">Preguntar por gestión de flotas</a></div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="view v-contact" data-view="contacto" aria-labelledby="t-contact" hidden>
+  <div class="wrap contact-grid" id="contact-main">
+    <div>
+      <h2 id="t-contact">Hablemos.</h2>
+      <p class="body-lg">¿Tienes una oportunidad, un proyecto o quieres saber más? Respondo a cualquier consulta.</p>
+      <ul class="channels">
+        <li><a href="tel:+34659597291"><span class="lbl">Teléfono</span><span class="val">+34 659 597 291</span><span class="arr">↗</span></a></li>
+        <li><button type="button" id="copy-mail"><span class="lbl">Email</span><span class="val">alvarog.fp13@gmail.com</span><span class="arr" id="copy-txt">Copiar</span></button></li>
+        <li><a href="https://wa.me/34659597291" target="_blank" rel="noopener"><span class="lbl">WhatsApp</span><span class="val">Mensaje directo</span><span class="arr">↗</span></a></li>
+        <li><a href="https://www.linkedin.com/in/alvaro-garcia-aparicio-rey-576821290" target="_blank" rel="noopener"><span class="lbl">LinkedIn</span><span class="val">Perfil profesional</span><span class="arr">↗</span></a></li>
+      </ul>
+    </div>
+    <form class="letter" id="letter" action="https://formsubmit.co/alvarog.fp13@gmail.com" method="POST" enctype="multipart/form-data" novalidate>
+      <input type="hidden" name="_subject" id="f-subj-hidden" value="[Web] Nuevo mensaje">
+      <input type="hidden" name="_next" id="f-next" value="">
+      <input type="hidden" name="_template" value="table">
+      <p class="stamp-post" aria-hidden="true">ÁGA<br>2026</p>
+      <p class="letter-to">Para: Álvaro García-Aparicio Rey</p>
+      <p class="madlib">
+        Hola Álvaro, me llamo
+        <label class="sr" for="f-name">Nombre</label><input id="f-name" name="Nombre" required placeholder="tu nombre" size="12">
+        y te escribo por
+        <label class="sr" for="f-subject">Área de interés</label>
+        <select id="f-subject" name="Área de interés">
+          <option>Oportunidad laboral</option>
+          <option>Electromecánica / Automoción</option>
+          <option>Montaje eólico / Electricidad</option>
+          <option>Software / Automatización / IA</option>
+          <option>Administración / Gestión de flotas</option>
+          <option>Otro asunto</option>
+        </select>.
+      </p>
+      <label class="sr" for="f-msg">Mensaje</label>
+      <textarea id="f-msg" name="Mensaje" rows="4" required placeholder="Cuéntame en una o dos frases qué necesitas."></textarea>
+      <div class="attach" id="attach">
+        <input type="file" id="f-pick" multiple hidden>
+        <input type="file" name="attachment" hidden><input type="file" name="attachment2" hidden><input type="file" name="attachment3" hidden>
+        <label for="f-pick" class="clip">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M16.5 6.5 8.4 14.6a2 2 0 0 0 2.8 2.8l8.1-8.1a4 4 0 0 0-5.7-5.7L5.5 11.7a6 6 0 0 0 8.5 8.5l6.4-6.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          <span><b>Adjuntar archivo</b> o arrástralo aquí</span>
+        </label>
+        <ul class="files" id="files"></ul>
+        <p class="mini">Hasta 3 archivos, 10 MB en total: CV, fotos, presupuestos o documentos.</p>
+      </div>
+      <p class="madlib">Puedes responderme en
+        <label class="sr" for="f-mail">Email</label><input id="f-mail" name="email" type="email" required placeholder="nombre@empresa.com" size="18">
+      </p>
+      <p class="form-err" id="form-err" role="alert"></p>
+      <button class="btn big" type="submit" id="send">Enviar mensaje</button>
+      <p class="mini">El mensaje y los archivos me llegan directamente al correo.</p>
+    </form>
+  </div>
+  <div class="wrap thanks" id="thanks" hidden>
+    <img src="img/thanks.webp" alt="" loading="lazy">
+    <div>
+      <h2>Gracias.</h2>
+      <p class="body-lg">Mensaje enviado. Te responderé lo antes posible. Si necesitas algo urgente, escríbeme a <b>alvarog.fp13@gmail.com</b>.</p>
+      <button class="btn" type="button" id="again">Escribir otro mensaje</button>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <span>Álvaro García-Aparicio Rey</span>
+  <span>Mecánica · Electricidad · Informática · Gestión</span>
+  <span>© 2026</span>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
